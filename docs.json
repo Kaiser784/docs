@@ -13,14 +13,11 @@
     "tabs": [
       {
         "tab": "Blog",
-        "pages": [
-          "index"
-        ],
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index"
+              "blog/ingress"
             ]
           }
         ]
@@ -29,18 +26,15 @@
         "tab": "Writeups",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Certifications",
             "pages": [
-              "api-reference/introduction"
+              "writeups/eJPT"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "CTF Writeups",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "writeups/matrix-ai"
             ]
           }
         ]
