@@ -3,52 +3,30 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6495ED",
+    "light": "#A9C8FF",
+    "dark": "#3A6FCF"
   },
   "favicon": "/logo/kaiser.jpg",
   "navigation": {
+
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Blog",
+        "pages": [
+          "index"
+        ],
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "index"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Writeups",
         "groups": [
           {
             "group": "API documentation",
@@ -71,13 +49,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Github",
+          "href": "https://github.com/Kaiser784",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "LinkedIN",
+          "href": "https://www.linkedin.com/in/paul-kadali",
           "icon": "newspaper"
         }
       ]
@@ -96,11 +74,11 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "mcp"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "mcp"
+    ]
   },
   "footer": {
     "socials": {
