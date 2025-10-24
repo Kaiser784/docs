@@ -17,7 +17,8 @@
           {
             "group": "Getting started",
             "pages": [
-              "blog/ingress"
+              "blog/ingress",
+              "blog/boot2root"
             ]
           }
         ]
@@ -28,13 +29,15 @@
           {
             "group": "Certifications",
             "pages": [
-              "certs/eJPT"
+              "certs/eJPT",
+              "certs/dante"
             ]
           },
           {
             "group": "CTF Writeups",
             "pages": [
-              "writeups/matrix-ai"
+              "writeups/matrix-ai",
+              "writeups/internet-ctf"
             ]
           }
         ]
