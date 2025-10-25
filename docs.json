@@ -16,6 +16,7 @@
           {
             "group": "Getting started",
             "pages": [
+              "whoami",
               "blog/beginnings",
               "blog/boot2root"
             ]
