@@ -28,15 +28,17 @@
         "groups": [
           {
             "group": "Certifications",
-            "pages": [
+             "groups": [
               {
-                "Dropdown": "eJPT",
+                "group": "eJPT",
                 "pages": [
                   "certs/ejpt/eJPT",
                   "certs/ejpt/ejpt-notes",
                   "certs/ejpt/enumeration"
                 ]
-              },
+              }
+            ],
+            "pages": [
               "certs/dante"
             ]
           },
