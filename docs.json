@@ -28,18 +28,20 @@
         "groups": [
           {
             "group": "Certifications",
-             "groups": [
+            "groups": [
               {
                 "group": "eJPT",
                 "pages": [
-                  "certs/ejpt/eJPT",
-                  "certs/ejpt/ejpt-notes",
-                  "certs/ejpt/enumeration"
+                  "certs/ejpt/preparation",
+                  "certs/ejpt/notes"
+                ]
+              },
+              {
+                "group": "Other Certs",
+                "pages": [
+                  "certs/dante"
                 ]
               }
-            ],
-            "pages": [
-              "certs/dante"
             ]
           },
           {
