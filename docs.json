@@ -9,7 +9,6 @@
   },
   "favicon": "/logo/kaiser.jpg",
   "navigation": {
-
     "tabs": [
       {
         "tab": "Blog",
@@ -28,20 +27,16 @@
         "groups": [
           {
             "group": "Certifications",
-            "groups": [
+            "pages": [
               {
-                "group": "eJPT",
+                "dropdown": "eJPT",
                 "pages": [
-                  "certs/ejpt/preparation",
-                  "certs/ejpt/notes"
+                  "certs/ejpt/eJPT",
+                  "certs/ejpt/ejpt-notes",
+                  "certs/ejpt/enumeration"
                 ]
               },
-              {
-                "group": "Other Certs",
-                "pages": [
-                  "certs/dante"
-                ]
-              }
+              "certs/dante"
             ]
           },
           {
