@@ -1,0 +1,20 @@
+---
+title: "System Attacks"
+description: "Hashes and Passwords"
+---
+
+## John the Ripper
+
+### Unshadow
+
+`passwd` is the **/etc/passwd** file `shadow` is the **/etc/shadow** file
+
+```bash
+unshadow passwd shadow > hash
+```
+
+### Hash Cracking
+
+```bash
+john --wordlist=/etc/john/rockyou.txt hash
+```

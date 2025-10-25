@@ -33,7 +33,8 @@
                 "group": "eJPT",
                 "pages": [
                   "certs/ejpt/eJPT",
-                  "certs/ejpt/ejpt-notes"
+                  "certs/ejpt/ejpt-notes",
+                  "cert/ejpt/enumeration"
                 ]
               }
             ]
@@ -42,7 +43,9 @@
             "group": "CTF Writeups",
             "pages": [
               "writeups/matrix-ai",
-              "writeups/internet-ctf"
+              "writeups/internet-ctf",
+              "writeups/withsecure",
+              "writeups/lakera"
             ]
           }
         ]
