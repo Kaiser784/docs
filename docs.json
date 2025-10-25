@@ -36,10 +36,10 @@
                 "pages": [
                   "certs/ejpt/eJPT",
                   "certs/ejpt/ejpt-notes",
-                  "cert/ejpt/enumeration",
-                  "cert/ejpt/web",
-                  "cert/ejpt/system",
-                  "cert/ejpt/network"
+                  "certs/ejpt/enumeration",
+                  "certs/ejpt/web",
+                  "certs/ejpt/system",
+                  "certs/ejpt/network"
                 ]
               }
             ]
@@ -55,9 +55,9 @@
               {
                 "group": "WIZ Security Challenges",
                 "pages": [
-                  "writeups/wiz/bigiam", 
-                   "writeups/wiz/k8slan", 
-                   "writeups/wiz/eks", 
+                  "writeups/wiz/bigiam",
+                   "writeups/wiz/k8slan",
+                   "writeups/wiz/eks",
                    "writeups/wiz/prompt"
                 ]
               }
