@@ -36,7 +36,12 @@
                   "certs/ejpt/enumeration"
                 ]
               },
-              "certs/dante"
+              {
+                "dropdown": "Dante",
+                "pages": [
+                  "certs/dante"
+                ]
+              }
             ]
           },
           {
