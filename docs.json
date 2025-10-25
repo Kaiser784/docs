@@ -30,8 +30,9 @@
             "group": "Certifications",
             "pages": [
               {
-                "page": "certs/ejpt/eJPT",
+                "Dropdown": "eJPT",
                 "pages": [
+                  "certs/ejpt/eJPT",
                   "certs/ejpt/ejpt-notes",
                   "certs/ejpt/enumeration"
                 ]
