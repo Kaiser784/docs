@@ -1,0 +1,62 @@
+---
+title: "Cheatsheet/Notes"
+description: "These are condensed notes from the INE course and other blogs and articles."
+---
+
+## Subnet Guide
+
+![Subnet Avi](/images/subnet.avif)
+
+![Table Pn](/images/table.png)
+
+## Routing
+
+<Check>
+  This part is pretty important😉
+</Check>
+
+```bash
+ip route add 172.10.1.0/24 via 10.10.10.10(VPN Gateway)
+```
+
+If you don't know what the VPN gateway is then try it with every host that is up in the network.
+
+If you want external sources for routing/pivoting, you can look at this one I found somewhere in the depths of Reddit (Don't ask me why Shaq is on it).
+
+<Card title="Explore Hidden Networks With Double Pivoting" icon="chart-network" href="https://pentest.blog/explore-hidden-networks-with-double-pivoting/" cta="Check it out">
+  
+</Card>
+
+## Interactive Shells
+
+```bash
+bash -i
+python -c 'import pty; pty.spawn("/bin/sh")'
+echo os.system('/bin/bash')
+/bin/sh -i
+perl -e 'exec "/bin/sh";'
+perl: exec "/bin/sh";
+ruby: exec "/bin/sh"
+lua: os.execute('/bin/sh')
+```
+
+## Recommended Shells
+
+| Server        | Web Shell |
+| ------------- | --------- |
+| Windows       | ASP       |
+| Apache TomCat | JSP       |
+| Apache        | PHP       |
+
+### Reverse Shells
+
+[Pentest Monkey Cheatsheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+
+## Hacktricks
+
+If you're stuck at vulnerability assessment or don't know how to tackle something you can check here for some kind of push.
+
+
+<Card title="Hacktricks" icon="book" href="book.hacktricks.wiki" cta="book.hacktricks.wiki">
+  
+</Card>

