@@ -30,7 +30,7 @@
             "pages": [
               "certs/dante",
               {
-                "dropdown": "eJPT",
+                "group": "eJPT",
                 "pages": [
                   "certs/ejpt/eJPT",
                   "certs/ejpt/ejpt-notes"
