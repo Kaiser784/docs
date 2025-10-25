@@ -18,7 +18,8 @@
             "pages": [
               "whoami",
               "blog/beginnings",
-              "blog/boot2root"
+              "blog/boot2root",
+              "redirect"
             ]
           }
         ]
