@@ -21,12 +21,7 @@
               "blog/boot2root",
               "redirect"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Writeups",
-        "groups": [
+          },
           {
             "group": "Certifications",
             "pages": [
