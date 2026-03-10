@@ -9,6 +9,20 @@
   },
   "favicon": "/logo/kaiser.jpg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Github",
+          "icon": "book-open-cover",
+          "href": "https://github.com/Kaiser784"
+        },
+        {
+          "anchor": "LinkedIN",
+          "icon": "newspaper",
+          "href": "https://www.linkedin.com/in/paul-kadali"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Blog",
@@ -19,7 +33,8 @@
               "whoami",
               "blog/beginnings",
               "blog/boot2root",
-              "redirect"
+              "redirect",
+              "blog/ghost-in-shell"
             ]
           },
           {
@@ -51,30 +66,16 @@
                 "group": "WIZ Security Challenges",
                 "pages": [
                   "writeups/wiz/bigiam",
-                   "writeups/wiz/k8slan",
-                   "writeups/wiz/eks",
-                   "writeups/wiz/prompt"
+                  "writeups/wiz/k8slan",
+                  "writeups/wiz/eks",
+                  "writeups/wiz/prompt"
                 ]
               }
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Github",
-          "href": "https://github.com/Kaiser784",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "LinkedIN",
-          "href": "https://www.linkedin.com/in/paul-kadali",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/kaiser.jpg",
