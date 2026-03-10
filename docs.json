@@ -33,8 +33,7 @@
               "whoami",
               "blog/beginnings",
               "blog/boot2root",
-              "redirect",
-              "blog/ghost-in-shell"
+              "redirect"
             ]
           },
           {
@@ -71,6 +70,12 @@
                   "writeups/wiz/prompt"
                 ]
               }
+            ]
+          },
+          {
+            "group": "Ghost in the Shell",
+            "pages": [
+              "blog/ghost-in-shell"
             ]
           }
         ]
