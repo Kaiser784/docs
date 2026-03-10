@@ -37,6 +37,13 @@
             ]
           },
           {
+            "group": "Ghost in the Shell",
+            "pages": [
+              "blog/ghost-in-shell",
+              "blog/ghost-in-machine"
+            ]
+          },
+          {
             "group": "Certifications",
             "pages": [
               "certs/dante",
@@ -71,12 +78,6 @@
                 ]
               }
             ]
-          },
-          {
-            "group": "Ghost in the Shell",
-            "pages": [
-              "blog/ghost-in-shell"
-            ]
           }
         ]
       }
@@ -107,6 +108,15 @@
       "github": "https://github.com/Kaiser784",
       "linkedin": "https://www.linkedin.com/in/paul-kadali"
     }
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "seo": {
+    "indexing": "all"
   }
 }
 
